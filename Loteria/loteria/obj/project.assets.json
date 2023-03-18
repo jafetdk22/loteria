@@ -10514,11 +10514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jafet SG\\Desktop\\loteria\\loteria\\loteria.csproj",
+      "projectUniqueName": "C:\\Users\\jafet SG\\Documents\\loteria\\Loteria\\loteria\\loteria.csproj",
       "projectName": "loteria",
-      "projectPath": "C:\\Users\\jafet SG\\Desktop\\loteria\\loteria\\loteria.csproj",
+      "projectPath": "C:\\Users\\jafet SG\\Documents\\loteria\\Loteria\\loteria\\loteria.csproj",
       "packagesPath": "C:\\Users\\jafet SG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jafet SG\\Desktop\\loteria\\loteria\\obj\\",
+      "outputPath": "C:\\Users\\jafet SG\\Documents\\loteria\\Loteria\\loteria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jafet SG\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LG/X7ZXqq3/d9fndyA4ie5Y65/6Dt6/NQEi/kA/VfDJppmZBfa80JNK2kL0JUN5EUFEArSKUT1d3VsJMDZNcPQ==",
+  "dgSpecHash": "AdPBBx1BBLflV5kSEwUaDv69xOPIDxfbCF/0Kc4azprh7FnXz9X2eHnvvxplcMQqzAc0j9+v+lRiWktxe/50qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jafet SG\\Desktop\\loteria\\loteria\\loteria.csproj",
+  "projectFilePath": "C:\\Users\\jafet SG\\Documents\\loteria\\Loteria\\loteria\\loteria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafet SG\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jafet SG\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
