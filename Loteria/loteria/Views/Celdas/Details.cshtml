@@ -1,0 +1,42 @@
+﻿@model loteria.Models.Entities.Celdas
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Celdas</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Fila)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Fila)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Columna)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Columna)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdCartaNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdCartaNavigation.IdCarta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdTableroNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdTableroNavigation.IdTablero)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdCelda">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

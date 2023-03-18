@@ -1,0 +1,71 @@
+﻿@model IEnumerable<loteria.Models.Entities.Celdas>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <div class="col-6 m-3">
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-2">
+                            <img src="@Url.Content(item.IdCartaNavigation.Imagen)" alt="Imagen de la carta" width="120" height="160">
+                        </div>
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fila)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Columna)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCartaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTableroNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fila)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Columna)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdCartaNavigation.Imagen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdTableroNavigation.IdTablero)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdCelda">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdCelda">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdCelda">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
